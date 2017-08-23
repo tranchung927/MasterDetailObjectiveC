@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface DetailViewController : UIViewController
+@property NSString *name;
+@property (weak, nonatomic)IBOutlet UITextField *nameTextField;
 @end
 
